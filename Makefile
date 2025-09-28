@@ -2,6 +2,8 @@ CC      = gcc
 CFLAGS  = -lGL -lglfw -lwayland-client -lX11
 RM      = rm -f
 
+PREFIX  ?= /usr/local
+
 default: all
 
 all: syfo
@@ -12,3 +14,7 @@ syfo: syfo.c
 
 clean veryclean:
 	$(RM) syfo
+
+install:
+	install -d "$(PREFIX)/bin"
+	install syfo "$(PREFIX)/bin/syfo"
