@@ -570,7 +570,7 @@ const char** getart(char* distro) {
     GRAY"│──────"BLUE"  ▟██████████████▙  "GRAY"───────│"RESET,
     GRAY"│─────"BLUE"  ▟██████▀▔▔▀██████▙  "GRAY"──────│"RESET,
     GRAY"│────"BLUE"  ▟██████▌    ▐██████▙  "GRAY"─────│"RESET,
-    GRAY"│───"BLUE"  ▟████▀          ▀████▙  "GRAY"────│"RESET,
+    GRAY"│───"BLUE"  ▟███▀▀          ▀▀███▙  "GRAY"────│"RESET,
     GRAY"│──"BLUE"  ▐█▀                  ▀█▌  "GRAY"───│"RESET,
     NULL
   };
